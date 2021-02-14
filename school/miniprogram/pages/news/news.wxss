@@ -1,0 +1,7 @@
+
+.textarea-input{
+	margin: 50rpx;
+  border: 1rpx solid black;
+  padding: 0 25rpx;
+  background-color: rgb(245, 237, 237);
+}

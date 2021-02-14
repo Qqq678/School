@@ -1,0 +1,16 @@
+<!-- pages/demo/demo.wxml -->
+<text>成绩单</text>
+<view class="table">
+  <view class="tr">
+    <view class="th">{{name}}</view>
+    <view class="th">{{userName}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">{{card}}</view>
+    <view class="th">{{userCard}}</view>
+  </view>
+  <view class="tr" wx:for="{{list}}" wx:key="{{teacher}}">
+    <view class="th">{{item.name}}</view>
+    <view class="th">{{item.score}}</view>
+  </view>
+</view>

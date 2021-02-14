@@ -1,0 +1,11 @@
+<!-- pages/userSetting/userLogin/userLogin.wxml -->
+<view class="reloading">
+  <view class="loading">统一身份认证登录</view>
+  <view class="userName">
+    <input type="text" class="firstInput" bindinput="bindUserName" placeholder="请输入学号:" />
+  </view>
+  <view class="passWord">
+    <input type="text" class="secondInput" bindinput="bindUserPassword" password="true" placeholder="请输入密码:" />
+  </view>
+  <button class="goStart" bindtap="bindLogin">登录</button>
+</view>

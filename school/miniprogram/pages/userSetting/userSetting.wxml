@@ -1,0 +1,13 @@
+<!-- index/userSetting.wxml -->
+<view class="content">
+  <image class="logo" src="../../images/icon_API.png" mode="aspectFit"></image>
+  <view class="userLogin" bindtap="goLogin" wx:if="{{done}}">{{login}}</view>
+  <block wx:else>
+    <view class="login">{{reLogin}}</view>
+    <view class="signOut" bindtap="signOut">{{signOut}}</view>
+  </block>
+</view>
+<view class="content">
+  <view class="other">Loading</view>
+</view>
+

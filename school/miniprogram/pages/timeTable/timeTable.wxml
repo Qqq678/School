@@ -1,0 +1,24 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th table-cell">节数\星期</view>
+    <view class="th table-cell">周一</view>
+    <view class="th table-cell">周二</view>
+    <view class="th table-cell">周三</view>
+    <view class="th table-cell">周四</view>
+    <view class="th table-cell">周五</view>
+    <view class="th table-cell">周六</view>
+    <view class="th table-cell">周日</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g">
+      <view class="td table-cell">{{item.code}}</view>
+      <view class="td table-cell">{{item.courseName1.name}}<span>{{item.courseName1.where+item.courseName1.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName2.name}}<span>{{item.courseName2.where+item.courseName2.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName3.name}}<span>{{item.courseName3.where+item.courseName3.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName4.name}}<span>{{item.courseName4.where+item.courseName4.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName5.name}}<span>{{item.courseName5.where+item.courseName5.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName6.name}}<span>{{item.courseName6.where+item.courseName6.teacher}}</span></view>
+      <view class="td table-cell">{{item.courseName7.name}}<span>{{item.courseName7.where+item.courseName7.teacher}}</span></view>
+    </view>
+  </block>
+</view>

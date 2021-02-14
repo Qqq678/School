@@ -1,0 +1,30 @@
+<view>
+  <button class="sendNews" bindtap="goReleaseNews">发布新动态</button>
+</view>
+<view class="div">
+  <view class="releaseNews" wx:for="{{list}}" wx:key="{{date}}">
+    <view class="user">
+      <image class="userphoto" src="user-unlogin.png" />
+      <text class="user-name">{{item.user}}</text>
+    </view>
+    <view class="date">{{item.date}}</view>
+    <view class="news">
+      <text>{{item.news}}</text>
+    </view>
+    <view class="comment">
+      <view class="comment-div">
+        <image class="comment-logo" src="{{likeLogo}}" bindtap="likeThis"/>
+      </view>
+      <view class="comment-div">
+        <image class="comment-logo" src="{{commentLogo}}" bindtap=""/>
+      </view>
+      <view class="comment-div">
+        <image class="comment-logo" src="{{favorLogo}}" bindtap=""/> 
+      </view>
+    </view>
+  </view>
+</view>
+
+
+    
+   

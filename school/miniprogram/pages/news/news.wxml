@@ -1,0 +1,5 @@
+<view class="textarea-input">
+    <textarea  bindinput="bindRelease" placeholder="今天有什么要分享的吗?" style="height:200rpx;border-bottom:1rpx solid black"/>
+    <button bindtap="releaseNews">发布</button>
+</view>
+  

@@ -1,0 +1,34 @@
+/* index/userSetting.wxss */
+.content{
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50rpx;
+  border: 1rpx solid black;
+}
+
+.logo{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 100rpx;
+}
+
+.userLogin{
+  font-size: 100rpx;
+  text-decoration: underline;
+}
+
+.login{
+  font-size: 70rpx;
+}
+
+.signOut{
+  font-size: 30rpx;
+}
+
+.other{
+  padding-top: 500rpx;
+}

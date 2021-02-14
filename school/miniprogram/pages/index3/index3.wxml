@@ -1,0 +1,8 @@
+<!-- index/index3.wxml -->
+<view>
+  <button bindtap="bindGoReportCardPage">成绩单</button>
+  <button bindtap="bindGoTimeTablePage">课程表</button>
+  <button bindtap="bindAddUserData">data</button>
+  <button bindtap="bindGetUserData">getdata</button>
+  <button bindtap="bindGoCet">cet成绩查询</button>
+</view>

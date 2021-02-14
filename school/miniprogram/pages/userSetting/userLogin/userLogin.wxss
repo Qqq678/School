@@ -1,0 +1,28 @@
+.reloading{
+  height: 100%;
+  border: 1rpx solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200rpx 0 200rpx 0;
+  margin-top: 200rpx;
+}
+
+.loading{
+  display: flex;
+  margin-bottom: 50rpx;
+}
+
+.userName{
+  border-bottom: 1rpx solid green;
+}
+
+.passWord{
+  border-bottom: 1rpx solid green;
+}
+
+.goStart{
+  margin-top: 40rpx;
+  background-color: darkgrey;
+}
